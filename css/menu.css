@@ -1,0 +1,200 @@
+@font-face {
+    font-family: 'oswaldbold';
+    src: url('font/oswald-bold-webfont.eot');
+    src: url('font/oswald-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/oswald-bold-webfont.woff2') format('woff2'),
+         url('font/oswald-bold-webfont.woff') format('woff'),
+         url('font/oswald-bold-webfont.ttf') format('truetype'),
+         url('font/oswald-bold-webfont.svg#oswaldbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'oswaldlight';
+    src: url('font/oswald-light-webfont.eot');
+    src: url('font/oswald-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/oswald-light-webfont.woff2') format('woff2'),
+         url('font/oswald-light-webfont.woff') format('woff'),
+         url('font/oswald-light-webfont.ttf') format('truetype'),
+         url('font/oswald-light-webfont.svg#oswaldlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'oswaldbook';
+    src: url('font/oswald-regular-webfont.eot');
+    src: url('font/oswald-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/oswald-regular-webfont.woff2') format('woff2'),
+         url('font/oswald-regular-webfont.woff') format('woff'),
+         url('font/oswald-regular-webfont.ttf') format('truetype'),
+         url('font/oswald-regular-webfont.svg#oswaldbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'oswald_stencilregular';
+    src: url('font/oswald-stencil-webfont.eot');
+    src: url('font/oswald-stencil-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/oswald-stencil-webfont.woff2') format('woff2'),
+         url('font/oswald-stencil-webfont.woff') format('woff'),
+         url('font/oswald-stencil-webfont.ttf') format('truetype'),
+         url('font/oswald-stencil-webfont.svg#oswald_stencilregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Economica-Bold';
+  src: url('font/Economica-Bold.eot');
+  src: url('font/Economica-Bold.eot?#iefix') format('embedded-opentype'),
+       url('font/Economica-Bold.woff') format('woff'),
+       url('font/Economica-Bold.ttf') format('truetype'),
+       url('font/Economica-Bold.svg#Economica-Bold') format('svg');
+}
+
+
+@font-face {
+    font-family: 'HoboStdMedium';
+    src: url('font/hobostd.eot');
+    src: url('font/hobostd.eot') format('embedded-opentype'),
+         url('font/hobostd.woff') format('woff'),
+         url('font/hobostd.ttf') format('truetype'),
+         url('font/hobostd.svg#HoboStdMedium') format('svg');
+}
+
+
+
+@font-face {
+    font-family: 'architextregular';
+    src: url('font/architxt-webfont.eot');
+    src: url('font/architxt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/architxt-webfont.woff2') format('woff2'),
+         url('font/architxt-webfont.woff') format('woff'),
+         url('font/architxt-webfont.ttf') format('truetype'),
+         url('font/architxt-webfont.svg#architextregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+nav{
+  clear: both;
+  margin: 0px auto 0px auto;
+  padding: 20px 0 0 0;
+  text-align: center;
+}
+
+/*
+.nav-orsistemas{
+  text-align: center;
+  border: 2px solid red;
+  background-color: #00ade5;
+}
+
+/*
+
+.menu-cssmenu-container {
+  height: auto;
+  width: 100%;
+ margin:0px auto 10px auto;   
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px; 
+ display: block;
+  position: relative;  
+ border-bottom: 3px solid #0c8a2d;   
+  /*background: red; /*le puedo poner color al select en responsive
+  text-align: center;
+}
+*/
+
+
+.menu-cssmenu-container{
+  width: 100%;
+  height: auto;
+  text-align: center;
+/*  border: 1px solid green;*/
+
+
+}
+
+.menu-cssmenu-container ul{
+  list-style: none;
+  text-align: center;
+}
+
+.menu-cssmenu-container > ul > li{
+  color: #fff;
+  display: inline-block;
+}
+
+
+.menu-cssmenu-container ul li a {   /*  El display tambien me salvo la vida, es diferente este dato que el anterior con los > */
+   display: inline-block;
+/*  padding: 10px 0 0 0;*/
+  -webkit-transition: color .2s ease;
+  -moz-transition: color .2s ease;
+  -ms-transition: color .2s ease;
+  -o-transition: color .2s ease;
+  transition: color .2s ease;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; 
+  font-family: 'oswaldbold';
+  text-transform: uppercase;
+  padding: 8px;
+  line-height: 10px;  
+}
+
+
+.menu-cssmenu-container > ul > li:hover > a {
+  color: #fff;
+  border-radius: 3px solid #76531b;
+  -webkit-transition: all .35s ease;
+  -moz-transition: all .35s ease;
+  -ms-transition: all .35s ease;
+  -o-transition: all .35s ease;
+  transition: all .35s ease; 
+  background-color: #0066ff;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+
+/*
+.menu-cssmenu-container ul > li > a:nth-child(1)::before{
+
+content: url('../images/Add.png');
+vertical-align: middle;
+margin-right: 4px;
+padding-top: 20px;
+border: 1px solid red;
+line-height: 25px;
+}
+
+.menu-cssmenu-container ul > li > a:nth-child(2)::before{
+
+content: url('../images/Profile.png');
+vertical-align: middle;
+margin-right: 4px;
+padding-top: 20px;
+border: 1px solid red;
+line-height: 25px;
+}
+
+*/
+
+
+/*=====================================*/
+
+
